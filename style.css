@@ -1,0 +1,91 @@
+.part1 {
+  background-image: url(images/photo1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+  padding-top:10%;
+}
+
+.modifpart1 {
+  background-color: rgba(029, 034, 036, 0.8);
+  position: fixed;
+  z-index: 20;
+  top: 0; 
+
+}
+.nav-item a {
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  border: solid, 1px, blue;
+}
+ 
+h1 mark {
+  background-color: #4b565d;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+.logo {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+.E {
+  color: #4bcaff;
+}
+.modifpart2 {
+  background-color: #4bcaff;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.titre::before {
+  content: "";
+  position: absolute;
+  margin-top: 35px;
+  width: 50px;
+  height: 3px;
+  background: #fff;
+}
+.part2 .modifpart2 .container .titre {
+  margin-bottom: 50px;
+}
+.icon {
+  width: 60px;
+  margin-bottom: 20px;
+}
+.part2 .modifpart2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.part3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(images/photo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  color: #fff;
+}
+#message {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: white;
+  border-radius: 1px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+footer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #353f47;
+}
+footer a {
+  text-decoration: none;
+  color: #687278;
+  font-size: 10px;
+  margin-right: 10px;
+}
+#copyright{
+	color: #687278;
+  	font-size: 10px;
+	margin-left: 80%;
+}
